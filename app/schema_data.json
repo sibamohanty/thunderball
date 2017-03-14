@@ -1,0 +1,62 @@
+{"data":[
+    {
+    "PopupLabel"	:  {
+                        "OSType" : "OSType",
+	                    "OSTypeName": "OSTypeName",
+	                    "Version": "Version",
+	                    "OSReleaseStatus": "OSReleaseStatus"
+                    },
+        "blue": "blah",
+        "ClusterConfiguration" : "MCC",
+        "site" :{   "PopupLabel" : "Local",
+                    "NodeCount" :  24,
+                    "Nodes" :
+                        { "Label": "1",
+                          "id" : 1,
+                          "size": 20,
+                          "shape":"rec",
+                          "Color": "#000",
+                          "PopupLabel":{
+                                    "PhysicalConfigType": "Some value",
+                                    "ChassisCount":"some val",
+                                    "ControllerCount":"some val",
+                                    "EmbeddedShelfCount":"some val"
+                                    },
+                            "OnBoardPortCount" :{"count": 20},
+                            "OnBoardPorts":[{
+                                "Label": "1",
+                                "id" : 1,
+                                "Size" :20 ,
+                                "Shape": "circle",
+                                "Color" : "#ffff00",
+                                "PopUpLabel": {
+                                    "PortType": "RJ45",
+                                    "MediaType": "tape",
+                                    "MediumType" : "Blah",
+                                    "ProtocolStack" : " Some Stack",
+                                    "InterfaceUsageType": "Blah"
+                                    }
+                                },
+                                {
+                                    "Label": "2",
+                                    "id" : 2,
+                                    "Size" :20 ,
+                                    "Shape": "circle",
+                                    "Color" : "#ff0000",
+                                    "PopUpLabel": {
+                                        "PortType": "RJ45",
+                                        "MediaType": "tape",
+                                        "MediumType" : "Blah",
+                                        "ProtocolStack" : " Some Stack",
+                                        "InterfaceUsageType": "Blah"
+                                    }
+                                }
+                            ]
+
+                        }
+                }
+    }
+
+
+]
+}
